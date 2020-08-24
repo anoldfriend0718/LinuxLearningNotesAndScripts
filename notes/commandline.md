@@ -59,3 +59,25 @@
 
 
 
+## enviroment 
+- env: print all the global enviroment variables
+- echo $xxx: print the specified environment vairables
+- set : see all the global and local env variables
+- echo: add a new local env variable
+- export xxx=vvv: add a new global env variable xxx with value as vvv
+- unset xxx: delete the env variable xxx 
+- echo $PATH: show path
+- PATH=$PATH: new path \n export PATH -> add new path and export the new PATH as the global env
+- PATH=$PARH: . -> add this folder to the path
+
+
+## install software
+- apt show xxx
+- apt search xxx
+- apt purge xxx: remove software and its configuration
+- apt remove xxx: remove software, but not its configuration
+- apt safe-upgrade: safe upgrade all the softwares
+- apt install xxx:
+- apt update: update the source info based on /etc/apt/sources.list
+- sudo apt-get update && sudo apt-get upgrade -y
+- install by self: wget, cmake, make, make install
