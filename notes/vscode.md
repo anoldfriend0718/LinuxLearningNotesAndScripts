@@ -20,3 +20,5 @@
     - Parameter hint: shift+ctrl+shape
     - Trigger suggest: ctrl+space
     - toggle suggest focus: ctrl+alt+space
+    - shift F7: select cmake target
+    - F7: cmake build

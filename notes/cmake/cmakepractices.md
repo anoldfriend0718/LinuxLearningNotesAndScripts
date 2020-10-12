@@ -4,8 +4,8 @@
 
 ### 重要的目录
 
-- /usr/include: 通常用于放第三方库的头文件
-- /usr/local/include: 一般放操作系统的头文件
+- /usr/include: 一般放操作系统的头文件
+- /usr/local/include: 通常用于放第三方库的头文件
 - /usr/lib: 放操作系统的动态库
 - /usr/local/lib: 放第三方库的动态库
 
